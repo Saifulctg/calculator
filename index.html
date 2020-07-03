@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>java script practice</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div id="calculator">
+        <h1>Claculator</h1>
+        <form name="form">
+            <input type="text" name="output" readonly id="cal_result" placeholder="0">
+            <input type="button" value="1" name="userInput" onclick="input(1)">
+            <input type="button" value="2" name="userInput" onclick="input(2)">
+            <input type="button" value="3" name="userInput" onclick="input(3)">
+            <input type="button" value="*" name="userInput" onclick="input('*')">
+            <input type="button" value="4" name="userInput" onclick="input(4)">
+            <input type="button" value="5" name="userInput" onclick="input(5)">
+            <input type="button" value="6" name="userInput" onclick="input(6)">
+            <input type="button" value="/" name="userInput" onclick="input('/')">
+            <input type="button" value="7" name="userInput" onclick="input(7)">
+            <input type="button" value="8" name="userInput" onclick="input(8)">
+            <input type="button" value="9" name="userInput" onclick="input(9)">
+            <input type="button" value="-" name="userInput" onclick="input('-')">
+            <input type="button" value="." name="userInput" onclick="input('.')">
+            <input type="button" value="0" name="userInput" onclick="input(0)">
+            <input type="button" value="00" name="userInput" onclick="input('00')">
+            <input type="button" value="+" name="userInput" onclick="input('+')">
+            <input type="button" value="CE" onclick="clearEntry()">
+            <input type="reset" value="C">
+            <input type="button" value="=" onclick="equal()">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

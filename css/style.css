@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Open Sans",sans-serif; 
+}
+h1{
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+}
+
+/* ==========common css end========== */
+
+#calculator{
+    width: 500px;
+    background-color: #dddddd;
+    margin: 50px auto 50px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#calculator form input{
+    width:calc(24% - 20px);
+    font-size: 25px;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    box-shadow: inset 0px 0px 20px 17px #8f8d8d;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+#calculator form :nth-child(1){
+    width: calc(100% - 20px);
+    text-align: right;
+    box-shadow: inset 0px 0px 20px 17px #ffffff;
+}
+#calculator form :nth-child(20){
+    width: calc(50% - 20px);
+    box-shadow: inset 0px 0px 20px 17px #495356;
+}
